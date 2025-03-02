@@ -1,0 +1,28 @@
+/* General styles for the whole page*/
+body{
+    font-family: sans-serif;
+       background-color: white;
+    
+}
+
+h1{
+    color: darkslateblue;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* navbar styles */
+/* all of these styles affect the navigation bar */
+#topnav{
+    background-color: darkslateblue;
+    color: white;
+}
+
+/* list items styles */
+li{
+
+}
+
+/*  */
+
+
