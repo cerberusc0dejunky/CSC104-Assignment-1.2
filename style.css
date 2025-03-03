@@ -1,28 +1,53 @@
 /* General styles for the whole page*/
 body{
+   color: rgb(41 79 109);
     font-family: sans-serif;
-       background-color: white;
-    
-}
-
-h1{
-    color: darkslateblue;
-    background-color: lightblue;
+    background-color: white;
     text-align: center;
 }
+
+
+
 
 /* navbar styles */
 /* all of these styles affect the navigation bar */
 #topnav{
-    background-color: darkslateblue;
+    background-color: rgb(41 79 109);
     color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    margin: 8px;
 }
 
 /* list items styles */
 li{
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  height: 10px;
+  width: 80%;
+  border: white solid;
+ }
+
+ p{
+    text-align: left;
+ }
+
+ /* hovered list item styles */
+li a:hover{
+    background-color: white;
+    color: rgb(41 79 109);
+    padding: 8px;
+    margin: 8px;
+    height: 10px;
+    width: 80%;
+    border: white solid;
 
 }
-
-/*  */
 
 
