@@ -1,0 +1,102 @@
+/* General styles for the whole page*/
+body{
+    color: rgb(41 79 109);
+     font-family: sans-serif;
+     background-color: white;
+     }
+ 
+ .section{
+         border-style: solid;
+         border-color: rgb(41 79 109);
+         border-radius: 1em;
+         box-shadow: 2px 5px 2px ;
+     }
+ 
+ /* navbar styles */
+ /* all of these styles affect the navigation bar */
+ .sidebar{
+     background-image: url(images/backgrounds/sidebbg.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-color: rgb(41 79 109);
+    /* changes the background color to a dark blue */
+     height: 100vh;
+    /* sets the height at 100% of the viewers height*/
+     width: 250px;
+     /* sets the width to 30% */
+     position: fixed;
+     /* this fixes the sidebar to the left so it doesnt move */
+     z-index: 1;
+     /* for items with positions it sets the stacking layer */
+     overflow-x: hidden;
+     /* hides anything below the fold */
+     border-top-left-radius: 1em;
+     /* rounds the top left corner relative to its its space */
+     border-top-right-radius: 1em;
+     /* rounds the top right corner relative to its space */
+     top: 0;
+     left: 0;
+    }
+ 
+    .sidebar li{
+       text-decoration: none;
+       list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+ 
+ /* 
+ by using z-index:1 I place the sidebar on top of the other elements. if i had done -1 it would have put it on the bottom. It's only half of the desired result
+ */
+ 
+ /* styles a link "a" in general */
+ .sidebar a{
+     padding: 8px;
+     /* adds 8px padding between content and the border */
+     text-decoration: none;
+     /* removes the underline and bullet points */
+     font-size: 25px;
+     /* makes the font larger */
+     color: white;
+     /* makes the font white */
+     display: block;
+     /* makes the font display as a vertical navigation */
+     border-style: solid;
+     border-color: rgb(41 79 109);
+     box-shadow: inset white 3px 2px 20px;
+ }
+ 
+ 
+ /* styles a link "a" when hovered over */
+ .sidebar a:hover{
+     
+     font-weight: 600;
+     /* really just makes the font fatter bolder css version of bold or strong */
+     text-decoration: underline;
+     /* adds the underline back */
+ }
+ /* 
+ This is the other half of what I was talking about if you dont add margin-"sidebars size" in this case mine is 30% then it will be hidden under the sidebar because the z-index: 1; raises it above the main content. 
+ */
+ main{
+     text-align: center;
+     margin-left: 250px;
+   }
+ 
+ header{
+     background-image: url(images/backgrounds/h1.png);
+     background-image: no-repeat;
+     background-image: cover;
+     color: white;
+     text-align: center;
+     margin-left: 250px;
+    
+     border-top-right-radius: 1em;
+     border-bottom-right-radius: 1em;
+     border-width: 5px;
+      border-style: solid;
+     border-color: rgb(41 79 109);
+     box-shadow: inset white 3px 2px 20px;
+ }
+ 
+ 
