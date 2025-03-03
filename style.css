@@ -5,4 +5,7 @@ body{
     background-color: white;
     text-align: center;
 }
-
+.sidebar ul li{
+   text-decoration: none;
+   list-style-type: none;
+}
